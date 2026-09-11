@@ -1,48 +1,41 @@
 <!doctype html>
-<html lang="pt-BR">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#efe5d7">
-<title>Você não está sozinho | Casa do Oleiro</title>
+<html lang="pt-BR"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#142219"><title>Você não está sozinho | Casa do Oleiro</title>
 <style>
-:root{--verde:#243629;--verde2:#354a38;--marrom:#7a5135;--barro:#a56f4b;--nude:#eadac7;--creme:#f7f1e8;--texto:#2c2722}
-*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--texto);background:
-radial-gradient(circle at 12% 8%,rgba(165,111,75,.11),transparent 28%),
-radial-gradient(circle at 88% 90%,rgba(36,54,41,.12),transparent 30%),var(--creme)}
-.page{min-height:100vh;display:flex;justify-content:center;padding:26px 18px 42px}
-.card{width:min(520px,100%);text-align:center}
-.logo{width:158px;max-height:190px;object-fit:contain;margin:0 auto 16px;display:block}
-.kicker{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--marrom);font-weight:700}
-h1{font-family:Georgia,'Times New Roman',serif;color:var(--verde);font-size:clamp(42px,11vw,64px);line-height:.95;margin:12px 0 14px}
-.lead{font-size:17px;line-height:1.55;max-width:430px;margin:0 auto 22px;color:#51483f}
-
-.actions{display:grid;gap:11px}
-.btn{display:flex;align-items:center;gap:14px;text-align:left;text-decoration:none;color:#fff;border-radius:18px;padding:16px 18px;font-weight:700;box-shadow:0 8px 18px rgba(0,0,0,.06)}
-.green{background:var(--verde)} .brown{background:var(--marrom)} .olive{background:var(--verde2)}
-.sub{display:block;font-size:12px;font-weight:400;opacity:.82;margin-top:2px}
-.secondary{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
-.soft{text-decoration:none;color:var(--verde);border:1px solid rgba(36,54,41,.45);background:rgba(255,255,255,.5);border-radius:16px;padding:13px 9px;font-weight:700}
-.note{margin:24px auto 0;padding:18px 12px;border-top:1px solid rgba(122,81,53,.28);border-bottom:1px solid rgba(122,81,53,.28);font-family:Georgia,serif;color:var(--marrom);font-style:italic;line-height:1.45}
-footer{font-size:11px;margin-top:20px;color:#76695d;letter-spacing:.08em;text-transform:uppercase}
-@media(max-width:380px){.secondary{grid-template-columns:1fr}.logo{width:138px}}
-</style>
-</head>
-<body><div class="page"><main class="card">
+*{box-sizing:border-box} html,body{margin:0;min-height:100%;font-family:Arial,Helvetica,sans-serif}
+body{color:#fff;background:#142219 url('casa-do-oleiro-bg.png') center top/cover fixed no-repeat}
+body:before{content:"";position:fixed;inset:0;background:linear-gradient(180deg,rgba(10,20,14,.25),rgba(18,24,16,.50));z-index:-1}
+.wrap{min-height:100vh;display:flex;justify-content:center;padding:38px 18px 44px}
+.card{width:min(560px,100%);text-align:center}
+.logo{width:170px;max-height:205px;object-fit:contain;filter:drop-shadow(0 3px 12px rgba(0,0,0,.28));margin:0 auto 22px;display:block}
+.tag{font-size:12px;letter-spacing:.30em;text-transform:uppercase;color:#ead4b9;margin-bottom:12px}
+h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(48px,12vw,76px);line-height:.91;margin:0 0 18px;text-shadow:0 2px 15px rgba(0,0,0,.28)}
+h1 span{color:#e7bd91}
+.lead{font-size:17px;line-height:1.55;max-width:470px;margin:0 auto 28px;color:#f4eee7;text-shadow:0 2px 8px rgba(0,0,0,.35)}
+.actions{display:grid;gap:12px}
+.btn{display:flex;align-items:center;gap:15px;text-decoration:none;color:#fff;text-align:left;padding:16px 18px;border-radius:19px;border:1px solid rgba(239,207,175,.48);backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);box-shadow:0 10px 24px rgba(0,0,0,.18)}
+.green{background:rgba(25,53,35,.90)} .brown{background:rgba(116,62,31,.90)}
+.ico{font-size:25px;width:34px;text-align:center;flex:0 0 34px} .txt{font-size:17px;font-weight:700;flex:1}
+.txt small{display:block;font-size:12px;font-weight:400;margin-top:3px;color:#f2dfca}
+.arrow{font-size:28px;font-weight:300}
+.footerline{margin:31px auto 0;width:1px;height:46px;background:#e7bd91}
+.motto{font-family:Georgia,'Times New Roman',serif;font-style:italic;color:#e7bd91;font-size:20px;line-height:1.35;margin:12px auto 22px;max-width:360px}
+.verse{font-size:12px;line-height:1.6;letter-spacing:.09em;color:#f0ddc8;text-transform:uppercase;max-width:420px;margin:auto}
+@media(max-width:520px){body{background-position:42% top;background-attachment:scroll}.wrap{padding-top:26px}.logo{width:145px}}
+</style></head><body><div class="wrap"><main class="card">
 <img class="logo" src="logo-casa-do-oleiro.png" alt="Casa do Oleiro">
-<div class="kicker">Uma mensagem para você</div>
-<h1>Você não está sozinho.</h1>
+<div class="tag">Mais que uma igreja. Uma família.</div>
+<h1>Você não está<br><span>sozinho.</span></h1>
 <p class="lead">Você importa. Sua vida tem valor. Existe esperança. Escolha abaixo como podemos estar com você hoje.</p>
-
 <section class="actions">
-<a class="btn green" href="https://wa.me/5522997803512?text=Ol%C3%A1!%20Recebi%20uma%20mensagem%20na%20a%C3%A7%C3%A3o%20%E2%80%9CVoc%C3%AA%20n%C3%A3o%20est%C3%A1%20sozinho%E2%80%9D%20e%20gostaria%20de%20conversar%20com%20algu%C3%A9m."><span>Preciso conversar<span class="sub">Queremos ouvir você.</span></span></a>
-<a class="btn brown" href="https://wa.me/5522997803512?text=Ol%C3%A1!%20Recebi%20uma%20mensagem%20na%20a%C3%A7%C3%A3o%20%E2%80%9CVoc%C3%AA%20n%C3%A3o%20est%C3%A1%20sozinho%E2%80%9D%20e%20gostaria%20de%20receber%20uma%20ora%C3%A7%C3%A3o."><span>Quero receber uma oração<span class="sub">Podemos orar com você.</span></span></a>
-<a class="btn olive" href="https://wa.me/5522997803512?text=Ol%C3%A1!%20Recebi%20uma%20mensagem%20na%20a%C3%A7%C3%A3o%20%E2%80%9CVoc%C3%AA%20n%C3%A3o%20est%C3%A1%20sozinho%E2%80%9D%20e%20gostaria%20de%20conhecer%20mais%20sobre%20Jesus."><span>Quero conhecer Jesus<span class="sub">Vamos caminhar juntos.</span></span></a>
+<a class="btn green" href="https://wa.me/5522997803512?text=Ol%C3%A1!%20Recebi%20uma%20mensagem%20na%20a%C3%A7%C3%A3o%20%E2%80%9CVoc%C3%AA%20n%C3%A3o%20est%C3%A1%20sozinho%E2%80%9D%20e%20gostaria%20de%20conversar%20com%20algu%C3%A9m."><span class="ico">💬</span><span class="txt">Preciso conversar<small>Queremos ouvir você.</small></span><span class="arrow">›</span></a>
+<a class="btn brown" href="https://wa.me/5522997803512?text=Ol%C3%A1!%20Recebi%20uma%20mensagem%20na%20a%C3%A7%C3%A3o%20%E2%80%9CVoc%C3%AA%20n%C3%A3o%20est%C3%A1%20sozinho%E2%80%9D%20e%20gostaria%20de%20receber%20uma%20ora%C3%A7%C3%A3o."><span class="ico">🙏</span><span class="txt">Quero receber uma oração<small>Podemos orar com você.</small></span><span class="arrow">›</span></a>
+<a class="btn green" href="https://wa.me/5522997803512?text=Ol%C3%A1!%20Recebi%20uma%20mensagem%20na%20a%C3%A7%C3%A3o%20%E2%80%9CVoc%C3%AA%20n%C3%A3o%20est%C3%A1%20sozinho%E2%80%9D%20e%20gostaria%20de%20conhecer%20mais%20sobre%20Jesus."><span class="ico">✝️</span><span class="txt">Quero conhecer Jesus<small>Vamos caminhar juntos.</small></span><span class="arrow">›</span></a>
+<a class="btn brown" href="https://maps.app.goo.gl/2LtGBk9CFeAqARif7?g_st=ic"><span class="ico">📍</span><span class="txt">Como chegar<small>Ver localização da igreja.</small></span><span class="arrow">›</span></a>
+<a class="btn green" href="https://www.instagram.com/casadooleirocabofrio/"><span class="ico">◎</span><span class="txt">Nosso Instagram<small>Acompanhe nossa caminhada.</small></span><span class="arrow">›</span></a>
 </section>
-<section class="secondary">
-<a class="soft" href="https://maps.app.goo.gl/2LtGBk9CFeAqARif7?g_st=ic">Quero conhecer a Casa</a>
-<a class="soft" href="https://www.instagram.com/casadooleirocabofrio/">Instagram</a>
-</section>
-<div class="note">Há esperança. Há cuidado. Há um lugar para você.</div>
-<footer>Casa do Oleiro</footer>
+<div class="footerline"></div>
+<div class="motto">Vidas sendo moldadas por um propósito maior.</div>
+<div class="verse">“Mas agora, Senhor, tu és o nosso Pai; nós somos o barro, e tu o nosso oleiro; todos nós somos obra das tuas mãos.” — Isaías 64:8</div>
 </main></div></body></html>
