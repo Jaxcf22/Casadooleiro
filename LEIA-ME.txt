@@ -1,0 +1,17 @@
+CASA DO OLEIRO - HUB "VOCÊ NÃO ESTÁ SOZINHO"
+
+URL usada no QR:
+https://sigaenigma-tech.github.io/casa-do-oleiro/
+
+PUBLICAÇÃO:
+1. No GitHub da conta sigaenigma-tech, crie um repositório PÚBLICO com o nome exato:
+   casa-do-oleiro
+2. Envie index.html e .nojekyll para a raiz do repositório.
+3. Abra Settings > Pages.
+4. Em Build and deployment, escolha "Deploy from a branch".
+5. Branch: main / (root) e clique Save.
+6. Quando o GitHub Pages publicar, o QR do PDF passará a abrir:
+   https://sigaenigma-tech.github.io/casa-do-oleiro/
+
+IMPORTANTE:
+Não renomeie o repositório sem gerar outro QR.
