@@ -1,1 +1,17 @@
-Substitua os arquivos do repositório pelos arquivos deste pacote. Não altere Settings > Pages. A URL e o QR Code continuam os mesmos.
+CASA DO OLEIRO — V7
+
+Suba estes arquivos para a RAIZ do repositório GitHub Pages:
+- index.html
+- background-casa-do-oleiro.png
+- logo-casa-do-oleiro.png
+- .nojekyll
+
+Você pode substituir os arquivos atuais pelos novos.
+
+NÃO altere Settings > Pages.
+NÃO renomeie o repositório.
+A URL continua a mesma e o QR Code continua válido.
+
+Depois do Commit, aguarde o deploy e atualize a página com:
+Mac: Command + Shift + R
+Windows: Ctrl + Shift + R
