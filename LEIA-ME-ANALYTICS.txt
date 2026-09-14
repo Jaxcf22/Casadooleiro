@@ -1,0 +1,24 @@
+CASA DO OLEIRO — V9 COM ANALYTICS
+
+Este pacote já está preparado para:
+- contar visitas à página;
+- registrar abertura da carta;
+- registrar cliques em:
+  • Preciso conversar
+  • Quero receber uma oração
+  • Quero conhecer Jesus
+  • Como chegar
+  • Instagram
+
+IMPORTANTE:
+Para o Google Analytics começar a registrar dados, ainda é necessário trocar
+G-XXXXXXXXXX pelo ID de medição da sua propriedade do Google Analytics 4.
+
+O ID tem este formato:
+G-XXXXXXXXXX
+
+Quando você tiver esse ID, envie para o ChatGPT e ele devolve o arquivo final
+já configurado.
+
+A URL da página permanece a mesma.
+O QR Code já impresso continua válido.

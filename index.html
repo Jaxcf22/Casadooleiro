@@ -163,6 +163,20 @@ h1 span{color:var(--nude)}
 .lightbox:target{display:flex}.lightbox img{display:block;width:auto;max-width:min(100%,900px);height:auto;margin:auto;background:#fff;box-shadow:0 12px 50px rgba(0,0,0,.45)}
 .close-letter{position:fixed;z-index:10000;top:14px;right:16px;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#fff;color:#213a2b;text-decoration:none;font-size:28px;box-shadow:0 4px 18px rgba(0,0,0,.3)}
 </style>
+
+<!-- GOOGLE ANALYTICS
+     Troque G-XXXXXXXXXX pelo seu ID de medição do Google Analytics 4.
+-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX', {
+    anonymize_ip: true
+  });
+</script>
+
 </head>
 <body>
 <div class="page">
@@ -177,36 +191,36 @@ h1 span{color:var(--nude)}
       Escolha abaixo como podemos estar com você hoje.
     </p>
 
-    <a class="letter-card" href="#carta" aria-label="Abrir Uma carta para você em tela cheia">
+    <a class="letter-card" href="#carta" aria-label="Abrir Uma carta para você em tela cheia" data-track="carta_aberta">
 <img src="uma-carta-para-voce.png" alt="Uma carta para você">
 <span class="letter-copy"><span><strong>Uma carta para você</strong><small>Toque para ler em tela cheia.</small></span></span>
 </a>
 <section class="actions">
-      <a class="btn green" href="https://wa.me/5522997803512?text=Ol%C3%A1!%20Recebi%20uma%20mensagem%20na%20a%C3%A7%C3%A3o%20%E2%80%9CVoc%C3%AA%20n%C3%A3o%20est%C3%A1%20sozinho%E2%80%9D%20e%20gostaria%20de%20conversar%20com%20algu%C3%A9m.">
+      <a class="btn green" data-track="preciso_conversar" href="https://wa.me/5522997803512?text=Ol%C3%A1!%20Recebi%20uma%20mensagem%20na%20a%C3%A7%C3%A3o%20%E2%80%9CVoc%C3%AA%20n%C3%A3o%20est%C3%A1%20sozinho%E2%80%9D%20e%20gostaria%20de%20conversar%20com%20algu%C3%A9m.">
         <span class="ico">💬</span>
         <span class="text">Preciso conversar<small>Queremos ouvir você.</small></span>
         <span class="arrow">›</span>
       </a>
 
-      <a class="btn brown" href="https://wa.me/5522997803512?text=Ol%C3%A1!%20Recebi%20uma%20mensagem%20na%20a%C3%A7%C3%A3o%20%E2%80%9CVoc%C3%AA%20n%C3%A3o%20est%C3%A1%20sozinho%E2%80%9D%20e%20gostaria%20de%20receber%20uma%20ora%C3%A7%C3%A3o.">
+      <a class="btn brown" data-track="quero_oracao" href="https://wa.me/5522997803512?text=Ol%C3%A1!%20Recebi%20uma%20mensagem%20na%20a%C3%A7%C3%A3o%20%E2%80%9CVoc%C3%AA%20n%C3%A3o%20est%C3%A1%20sozinho%E2%80%9D%20e%20gostaria%20de%20receber%20uma%20ora%C3%A7%C3%A3o.">
         <span class="ico">🙏</span>
         <span class="text">Quero receber uma oração<small>Podemos orar com você.</small></span>
         <span class="arrow">›</span>
       </a>
 
-      <a class="btn green" href="https://wa.me/5522997803512?text=Ol%C3%A1!%20Recebi%20uma%20mensagem%20na%20a%C3%A7%C3%A3o%20%E2%80%9CVoc%C3%AA%20n%C3%A3o%20est%C3%A1%20sozinho%E2%80%9D%20e%20gostaria%20de%20conhecer%20mais%20sobre%20Jesus.">
+      <a class="btn green" data-track="quero_conhecer_jesus" href="https://wa.me/5522997803512?text=Ol%C3%A1!%20Recebi%20uma%20mensagem%20na%20a%C3%A7%C3%A3o%20%E2%80%9CVoc%C3%AA%20n%C3%A3o%20est%C3%A1%20sozinho%E2%80%9D%20e%20gostaria%20de%20conhecer%20mais%20sobre%20Jesus.">
         <span class="ico">✝️</span>
         <span class="text">Quero conhecer Jesus<small>Vamos caminhar juntos.</small></span>
         <span class="arrow">›</span>
       </a>
 
-      <a class="btn brown" href="https://maps.app.goo.gl/2LtGBk9CFeAqARif7?g_st=ic">
+      <a class="btn brown" data-track="como_chegar" href="https://maps.app.goo.gl/2LtGBk9CFeAqARif7?g_st=ic">
         <span class="ico">📍</span>
         <span class="text">Como chegar<small>Ver localização da igreja.</small></span>
         <span class="arrow">›</span>
       </a>
 
-      <a class="btn green" href="https://www.instagram.com/casadooleirocabofrio/">
+      <a class="btn green" data-track="instagram" href="https://www.instagram.com/casadooleirocabofrio/">
         <span class="ico">◎</span>
         <span class="text">Nosso Instagram<small>Acompanhe nossa caminhada.</small></span>
         <span class="arrow">›</span>
@@ -225,5 +239,25 @@ h1 span{color:var(--nude)}
 <div id="carta" class="lightbox">
 <a class="close-letter" href="#" aria-label="Fechar carta">×</a>
 <img src="uma-carta-para-voce.png" alt="Uma carta para você">
-</div></body>
+</div>
+<script>
+(function(){
+  function sendEvent(name){
+    if (typeof gtag === 'function' && name) {
+      gtag('event', name, {
+        event_category: 'hub_casa_do_oleiro',
+        transport_type: 'beacon'
+      });
+    }
+  }
+
+  document.querySelectorAll('[data-track]').forEach(function(el){
+    el.addEventListener('click', function(){
+      sendEvent(el.getAttribute('data-track'));
+    });
+  });
+})();
+</script>
+
+</body>
 </html>
