@@ -1,24 +1,10 @@
-CASA DO OLEIRO — V9 COM ANALYTICS
+CASA DO OLEIRO — V11 ANALYTICS CONFIGURADO
 
-Este pacote já está preparado para:
-- contar visitas à página;
-- registrar abertura da carta;
-- registrar cliques em:
-  • Preciso conversar
-  • Quero receber uma oração
-  • Quero conhecer Jesus
-  • Como chegar
-  • Instagram
+Google Analytics configurado com o ID correto:
+G-72YP6BK17C
 
-IMPORTANTE:
-Para o Google Analytics começar a registrar dados, ainda é necessário trocar
-G-XXXXXXXXXX pelo ID de medição da sua propriedade do Google Analytics 4.
+O hub registra visitas e eventos dos botões.
+Envie os arquivos para a raiz do mesmo repositório GitHub, substituindo o index.html atual.
 
-O ID tem este formato:
-G-XXXXXXXXXX
-
-Quando você tiver esse ID, envie para o ChatGPT e ele devolve o arquivo final
-já configurado.
-
-A URL da página permanece a mesma.
-O QR Code já impresso continua válido.
+A URL do GitHub Pages não muda.
+O QR Code já impresso continua funcionando.
