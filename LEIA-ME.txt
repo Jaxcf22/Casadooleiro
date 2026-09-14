@@ -1,17 +1,12 @@
-CASA DO OLEIRO — V7
+CASA DO OLEIRO — V8 COM CARTA
 
-Suba estes arquivos para a RAIZ do repositório GitHub Pages:
-- index.html
-- background-casa-do-oleiro.png
-- logo-casa-do-oleiro.png
-- .nojekyll
+Suba para a raiz do mesmo repositório:
+index.html
+background-casa-do-oleiro.png
+logo-casa-do-oleiro.png
+uma-carta-para-voce.png
+.nojekyll
 
-Você pode substituir os arquivos atuais pelos novos.
-
-NÃO altere Settings > Pages.
-NÃO renomeie o repositório.
-A URL continua a mesma e o QR Code continua válido.
-
-Depois do Commit, aguarde o deploy e atualize a página com:
-Mac: Command + Shift + R
-Windows: Ctrl + Shift + R
+O card “Uma carta para você” abre a imagem original em tela cheia.
+A carta não foi alterada. Os cinco botões e links existentes permanecem.
+Não altere Settings > Pages. A URL e o QR Code continuam os mesmos.
